@@ -1,0 +1,21 @@
+h1 { font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+ul{ font-size: 45px;
+    text-align: center;
+    color: darkslateblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+p {font-family: monospace;
+    font-size: 20px;
+    color: black;}
+
+#back{
+    font-size: 35px;
+    background-color: rgb(235, 172, 231);
+    color: rgb(34, 26, 83);
+
+}
