@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{{>header}}
+
+<body background="images/1234.jpg">
+
+<h1>{{title}}</h1>
+
+<p>Considerado el paradigma del homo universalis, del sabio renacentista
+    versado en todos los ámbitos del conocimiento humano, Leonardo da Vinci
+    (1452-1519) incursionó en campos tan variados como la aerodinámica, la hidráulica,
+    la anatomía, la botánica, la pintura, la escultura y la arquitectura, entre otros.
+    Sus investigaciones científicas fueron, en gran medida, olvidadas y minusvaloradas
+    por sus contemporáneos; su producción pictórica, en cambio, fue de inmediato
+    reconocida como la de un maestro capaz de materializar el ideal de belleza en obras de
+    turbadora sugestión y delicada poesía.</p>
+
+<p>El 2 de mayo de 1519 murió en Cloux; su testamento legaba a Melzi todos sus libros, manuscritos
+    y dibujos, que el discípulo se encargó de retornar a Italia. Como suele suceder con los grandes
+    genios, se han tejido en torno a su muerte algunas leyendas; una de ellas, inspirada por Vasari,
+    pretende que Leonardo, arrepentido de no haber llevado una existencia regida por las leyes de
+    la Iglesia, se confesó largamente y, con sus últimas fuerzas, se incorporó del lecho mortuorio
+    para recibir, antes de expirar, los sacramentos.</p>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <center>  <img style="width: 700px; height: 600px;" src="images/leo1.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 700px; height: 600px;" src="images/leo2.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 780px; height: 600px;" src="images/leo3.jpg" alt="Pintura">
+            </center>
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">{{p}}</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">{{n}}</span>
+    </a>
+</div>
+<br>
+
+
+</body>
+
+{{>footer}}
+
+</html>

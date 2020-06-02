@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{{>header}}
+
+<body background="images/1234.jpg">
+
+<h1>{{title}}</h1>
+
+<p>Nació en 1917 en Lancashire, Inglaterra. Su madre Maureen Moorhead, su abuela
+    y su nana, todas ellas inglesas y proclives a la fabulación, rodearon la infancia
+    de Leonora Carrington de animales y de hadas debido a los relatos, leyendas e
+    historias de criaturas del folclor de los pueblos celtas que le contaban. Sin embargo,
+    su padre, Harold Wilde Carrington, un exitoso hombre de negocios de la industria textil,
+    se oponía de la fantasía y los intereses artísticos de su hija. Wilde Carrington quería
+    que Leonora encontrara un esposo y un futuro cómodo entre las altas clases sociales de Londres.</p>
+
+<p>A los 20 años se mudó a París con Ernst. En la ciudad francesa Leonora Carrington convivió con
+    Andre Bretón, Salvador Dalí, Joan Miró, Man Ray, Pablo Picasso, Lee Miller y Luis Buñuel, quienes
+    la recibieron como una de sus principales musas. Más tarde, Carrington señalaría que los surrealistas
+    tenían ideas retrogradas sobre las mujeres al considerarlas “musas en potencia”.</p>
+
+<p>Comprometida a sus ideales, en 1970, Carrington se unió al Movimiento de Liberación Femenina de
+    México y produjo el poster ‘Mujeres Conciencia’. En sus últimos años, Leonora se dedicó principalmente
+    a la escultura. Murió a los 94 años en 2011, por lo que algunos historiadores la consideran la última de
+    los surrealistas.</p>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <center>  <img style="width: 750px; height: 600px;" src="images/leonora1.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 750px; height: 600px;" src="images/leonora2.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 750px; height: 600px;" src="images/leonora3.jpg" alt="Pintura">
+            </center>
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">{{p}}</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">{{n}}</span>
+    </a>
+</div>
+<br>
+
+</body>
+
+{{>footer}}
+
+</html>

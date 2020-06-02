@@ -1,0 +1,66 @@
+{{>header}}
+
+<body background="images/1234.jpg">
+
+<h1>{{title}}</h1>
+
+<p>(Pablo Ruiz Picasso; Málaga, 1881 - Moulins, Francia, 1973) Pintor español.
+    La trascendencia de Picasso no se agota en la fundación del cubismo, revolucionaria
+    tendencia que rompió definitivamente con la representación tradicional al liquidar
+    la perspectiva y el punto de vista único. A lo largo de su dilatada trayectoria,
+    Pablo Picasso exploró incesantemente nuevos caminos e influyó en todas la facetas
+    del arte del siglo XX, encarnando como ningún otro la inquietud y receptividad del
+    artista contemporáneo. Su total entrega a la labor creadora y su personalidad vitalista,
+    por otra parte, nunca lo alejarían de los problemas de su tiempo; una de sus obras
+    maestras, el Guernica (1937), es la mejor ilustración de su condición de artista comprometido.</p>
+
+<p>En la década de 1950 realizó numerosas series sobre grandes obras clásicas de la pintura,
+    que reinterpretó a modo de homenaje. En 1961 Pablo Picasso contrajo segundas nupcias con
+    Jacqueline Roque; sería su última relación sentimental de importancia. Convertido ya en
+    una leyenda en vida y en el epítome de la vanguardia, el artista y Jacqueline se retiraron
+    al castillo de Vouvenargues, donde el creador continuó trabajando incansablemente hasta el
+    día de su muerte.</p>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <center>  <img style="width: 750px; height: 600px;" src="images/picasso1.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 750px; height: 600px;" src="images/picasso2.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 750px; height: 600px;" src="images/picasso3.jpg" alt="Pintura">
+            </center>
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">{{p}}</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">{{n}}</span>
+    </a>
+</div>
+<br>
+
+
+</body>
+
+{{>footer}}
+
+</html>

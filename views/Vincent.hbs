@@ -1,0 +1,69 @@
+{{>header}}
+
+<body background="images/1234.jpg">
+
+<h1>{{title}}</h1>
+<hr>
+<p> Vincent van Gogh, por quien el color era el símbolo principal de expresión,
+    nació el 30 de marzo de 1853 en Groot-Zundert de Holanda. El hijo de un pastor, criado en una atmósfera
+    religiosa y refinada, Vincent era muy emocional y no tenía confianza en sí mismo. Entre 1860 y 1880, cuando
+    decidió finalmente ser artista, Van Gogh había tenido dos amores inadecuados y infelices y había trabajado
+    sin éxito como empleado en una librería, vendedor de arte, y predicador en Le Borinage (una región aburrida
+    de minera en Bélgica), donde fue despedido por “exceso de celo.”
+</p>
+
+<p>Decidió ir al sur de Arles donde tuvo la esperanza de abrir una escuela de arte con sus amigos.
+    Gauguin hizo el viaje a Arles pero el resultado fue un desastre. En el fin de 1888, después de un incidente,
+    Gauguin tuvo que salir de Arles. Van Gogh le persiguió con una cuchilla y fue parado por Gauguin, pero se cortó
+    una parte de su propia oreja. La vida de Van Gogh empezó a alternar entre los ataques de locura y la lucidez.
+    Van Gogh fue enviado al manicomio en Saint-Rémy para su tratamiento.</p>
+
+<p>En mayo de 1890, sentía mucho mejor y fue a vivir en Auvers-su-Oise bajo el ojo atento de Doctor Gachet. Murio dos
+    meses después cuando se disparó a sí mismo “por el bien de todo.” Durante su carrera breve vendió solamente una
+    pintura. Las obras más finas de Van Gogh fueron producidas en menos de tres años por una técnica que crecía más y
+    más apasionada en la brochada, en color simbólico e intenso, en tensión superficial, y en el movimiento y la
+    vibración de forma y línea. La fusión inimitable de forma y contenido de Van Gogh es poderosa, dramática,
+    rítmica, imaginativa y emocional. El artista estaba absorto completamente en el esfuerzo para explicar su lucha
+    contra su locura o en la comprensión de la esencia espiritual de hombre y naturaleza.</p>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <center>  <img style="width: 750px; height: 600px;" src="images/vangogh3.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 750px; height: 600px;" src="images/vangogh1.jpg" alt="Pintura">
+            </center>
+        </div>
+
+        <div class="item">
+            <center>  <img style="width: 750px; height: 600px;" src="images/vangogh2.jpeg" alt="Pintura">
+            </center>
+        </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">{{p}}</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">{{n}}</span>
+    </a>
+</div>
+<br>
+</body>
+
+{{>footer}}
+
+</html>
