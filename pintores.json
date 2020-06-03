@@ -1,0 +1,134 @@
+ [{
+    "name" : "Leonardo da Vinci",
+    "nacionalidad" : "italiano",
+    "corriente" : "Cultura",
+    "imagen" : "leo1.jpg"
+}, 
+
+{
+    "name" : "Leonardo da Vinci",
+    "nacionalidad" : "italiano",
+    "corriente" : "Cinquecento",
+    "imagen" : "leo2.jpg"
+}, 
+
+{
+    "name" : "Leonardo da Vinci",
+    "nacionalidad" : "italiano",
+    "corriente" : "Renacimiento",
+    "imagen" : "leo3.jpg"
+} 
+,
+
+ {
+    "name" : "Leonora Carrington",
+    "nacionalidad" : "Inglesa",
+    "corriente" : "Cultura",
+    "imagen" : "leonora1.jpg"
+}, 
+
+{
+    "name" : "Leonora Carrington",
+    "nacionalidad" : "Inglesa",
+    "corriente" : "Surrealismo",
+    "imagen" : "leonora2.jpg"
+}, 
+
+{
+    "name" : "Leonora Carrington",
+    "nacionalidad" : "Inglesa",
+    "corriente" : "Fovismo",
+    "imagen" : "leonora3.jpg"
+} 
+   ,
+
+
+{
+    "name" : "Pablo Picasso",
+    "nacionalidad" : "Español",
+    "corriente" : "Cultura",
+    "imagen" : "picasso1.jpg"
+}, 
+
+{
+    "name" : "Pablo Picasso",
+    "nacionalidad" : "Español",
+    "corriente" : "Cubismo",
+    "imagen" : "picasso2.jpg"
+}, 
+
+{
+    "name" : "Pablo Picasso",
+    "nacionalidad" : "Español",
+    "corriente" : "Expresionismo",
+    "imagen" : "picasso3.jpg"
+} ,
+
+
+
+ {
+    "name" : "Vincent van Gogh",
+    "nacionalidad" : "Holandes",
+    "corriente" : "Cultura",
+    "imagen" : "vangogh1.jpg"
+}, 
+
+{
+    "name" : "Vincent van Gogh",
+    "nacionalidad" : "Holandes",
+    "corriente" : "Posimpresionismo",
+    "imagen" : "vangogh2.jpg"
+}, 
+
+{
+    "name" : "Vincent van Gogh",
+    "nacionalidad" : "Holandes",
+    "corriente" : "Puntillismo",
+    "imagen" : "vangogh3.jpg"
+} ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
